@@ -1,6 +1,13 @@
 # String Checker Assignment
 
-In this assignment, you'll be writing three methods to carry out some String operations. Using the Java String methods will be very helpful.
+In this assignment, you'll be writing three methods to carry out some String operations. Using the Java String methods will be very helpful. Furthmore, you will likely want to use a for loop to loop through your Strings, such as:
+
+```shell script
+String str = "hello";
+for (int i = 0; i < str.length(); i++) {
+    System.out.println(str.charAt(i));
+}
+```
 
 The first method is countABC(). This method takes a String as input, and returns the total number of 'a', 'b', or 'c' chars in that String. The method has the following signature: public static int countABC(String str) {}
 
